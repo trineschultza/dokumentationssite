@@ -1,0 +1,64 @@
+* {margin:0;padding:0;}
+body {font-size:1.2em;}
+#site_header {background:rgb(250,250,250);min-width:400px;width:100%;}
+article {width:95%;min-width:400px;max-width:1324px;margin:0 auto 1000px;}
+#site_header ul {list-style-type:none;display:flex;flex-basis:300px;flex-wrap:wrap;justify-content:center;}
+#site_header ul li {margin:1em;}
+article header ul {list-style-type:none;display:flex;flex-basis:300px;flex-wrap:wrap;justify-content:center;}
+article header p + p {font-size:0.9em;font-style:italic;}
+article header li {margin:1em;overflow:hidden;word-break:break-all;max-width:15%;min-width:150px;}
+article header li div {text-align:center;}
+article header li img {width:50%;margin:1em;border-radius:50%;}
+
+#link_sektion {text-align:center;font-size:2em;word-break:break-all;}
+section img {margin:1em auto;display:block;width:80%;}
+
+#maalgruppe {position:relative;overflow:hidden;}
+#maalgruppe h3 {z-index:2;position:relative;}
+#maalgruppe .w_box {background:rgb(255,255,255);position:absolute;top:-60%;left:-50%;z-index:1;transform:rotate(-30deg);width:100%;height:30em;}
+#maalgruppe .flex {background:#FDA72E;}
+#maalgruppe ol {list-style-type:none;}
+.flex {display:flex;flex-basis:400;}
+.column {margin:1em;z-index:1;min-width:400px}
+
+#persona {position:relative;overflow:hidden;}
+#persona h3 {z-index:2;position:relative;}
+#persona .flex {background:#fff;}
+#persona .w_box {background:#00C1DB;position:absolute;top:-20%;left:-50%;z-index:1;transform:rotate(30deg);width:100%;height:30em;}
+#persona .column img {width:300px;margin:3em 0 0;}
+
+#persona_2 {position:relative;overflow:hidden;}
+#persona_2 .flex {background:#fff;}
+#persona_2 .w_box {background:#00C1DB;position:absolute;top:-20%;left:-50%;z-index:1;transform:rotate(30deg);width:100%;height:40em;}
+#persona_2 .column img {width:300px;margin:3em 0 0;}
+#persona, #persona_2, #maalgruppe, #styletile, #design, #test_dokumentation, #fotos_af_stand {margin:1em auto 0;width:80%;}
+
+#assetliste {text-align:center;font-size:2em;}
+#link_til_trelloboard {text-align:center;font-size:2em;}
+
+
+
+
+a:link {color:#568EFF;}
+a:visited {color:#568EFF;}
+a:hover {color:#2E2E89;}
+a:active {color:#568EFF;}
+
+article section p {margin:0 0 1em;}
+
+h1,h2,h3,h4,h6,p {color:rgb(30,30,30);}
+h3 {font-size:2em;}
+
+
+
+.fadeout {animation:fadeout 1s forwards;}
+.fadein {animation:fadein 2s forwards;}
+
+@keyframes fadeout {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+@keyframes fadein {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
